@@ -15,11 +15,11 @@ PLAYAQ is a premium, secure, and modern Laravel MVC-based web application design
 ---
 
 ## 👥 Group Members
-* **Member 1:** Anis Daniyah binti Mohd Faizal (2419018) candypopZZ
-* **Member 2:** Anis Asna binti Amin (2415028) gigclouds
-* **Member 3:** Hana Imani binti Jalaludin (2413760) Bhadbhana05
-* **Member 4:** Haifa Adani binti Hanafiah (2415106) haifaadani
-* **Member 5:** Balqees Hana binti Fairuzam (2419962) balqeeshana
+* **Member 1:** Anis Daniyah binti Mohd Faizal (2419018) -candypopZZ
+* **Member 2:** Anis Asna binti Amin (2415028) -gigclouds
+* **Member 3:** Hana Imani binti Jalaludin (2413760) -Bhadbhana05
+* **Member 4:** Haifa Adani binti Hanafiah (2415106) -haifaadani
+* **Member 5:** Balqees Hana binti Fairuzam (2419962) -balqeeshana
 
 ---
 
