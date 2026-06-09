@@ -15,11 +15,11 @@ PLAYAQ is a premium, secure, and modern Laravel MVC-based web application design
 ---
 
 ## 👥 Group Members
-* **Member 1:** Anis Daniyah binti Mohd Faizal (2419018)
-* **Member 2:** Anis Asna binti Amin (2415028)
-* **Member 3:** Hana Imani binti Jalaludin (2413760)
-* **Member 4:** Haifa Adani binti Hanafiah (2415106)
-* **Member 5:** Balqees Hana binti Fairuzam (2419962)
+* **Member 1:** Anis Daniyah binti Mohd Faizal (2419018) candypopZZ
+* **Member 2:** Anis Asna binti Amin (2415028) gigclouds
+* **Member 3:** Hana Imani binti Jalaludin (2413760) Bhadbhana05
+* **Member 4:** Haifa Adani binti Hanafiah (2415106) haifaadani
+* **Member 5:** Balqees Hana binti Fairuzam (2419962) balqeeshana
 
 ---
 
@@ -91,7 +91,7 @@ Create the empty SQLite database file inside the database directory:
 New-Item -Path database\database.sqlite -ItemType File -Force
 ```
 
-### Step 5: Generate Key & Migrate Database
+### Step 5: Generate Key & Migrate Database.
 Generate the application encryption key and run migrations to build and seed all default database tables:
 ```bash
 php artisan key:generate
