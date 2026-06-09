@@ -64,7 +64,7 @@ All accounts use the password: `password`
 ### Step 1: Clone the Repo into a Test Folder
 Navigate to a different directory (e.g., your Desktop or Downloads) and run the following command to clone the repository into a new folder named `playaq-test`:
 ```bash
-    git clone https://github.com/balqeeshana/playaq-project-webapp.git playaq-test
+git clone https://github.com/balqeeshana/playaq-project-webapp.git playaq-test
 ```
 
 ### Step 2: Go into the Test Folder & Install Dependencies
