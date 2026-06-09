@@ -61,15 +61,46 @@ All accounts use the password: `password`
 ---
 
 ## 🚀 How to Setup and Run Locally
-1. Clone / download this repository.
-2. Run dependency installations:
-   ```bash
-   composer install
-3. Set database details in your .env file (e.g. DB_CONNECTION=sqlite).
-4. Generate the application key and migrate the database:
-   ```bash
-   php artisan key:generate
-   php artisan migrate:fresh --seed
-5. Start the local server:
-   ```bash
-   php artisan serve
+### Step 1: Clone the Repo into a Test Folder
+Navigate to a different directory (e.g., your Desktop or Downloads) and run the following command to clone the repository into a new folder named `playaq-test`:
+```bash
+    git clone https://github.com/balqeeshana/playaq-project-webapp.git playaq-test
+```
+
+### Step 2: Go into the Test Folder & Install Dependencies
+Move into the cloned directory and install the required PHP dependencies using Composer:
+```bash
+cd playaq-test
+composer install
+```
+
+### Step 3: Create the .env File
+Since the .env file is excluded from Git, create a new one using the template provided in the project:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+### Step 4: Setup Database (SQLite)
+Open the newly created .env file in your editor and verify/set the database connection line to:
+```ini
+DB_CONNECTION=sqlite
+```
+Create the empty SQLite database file inside the database directory:
+```powershell
+New-Item -Path database\database.sqlite -ItemType File -Force
+```
+
+### Step 5: Generate Key & Migrate Database
+Generate the application encryption key and run migrations to build and seed all default database tables:
+```bash
+php artisan key:generate
+php artisan migrate:fresh --seed
+```
+
+### Step 6: Serve the Website
+Start the local development server:
+```bash
+php artisan serve
+```
+Open http://127.0.0.1:8000 in your web browser to test the application.
