@@ -4,6 +4,16 @@ PLAYAQ is a premium, secure, and modern Laravel MVC-based web application design
 
 ---
 
+## Project Objectives
+
+- Build a searchable platform for verified home maintenance professionals.
+- Provide a transparent booking and payment system.
+- Improve service quality through ratings and reviews.
+- Offer professionals a dashboard to manage services and earnings.
+- Connect customers and providers through direct communication.
+
+---
+
 ## 👥 Group Members
 * **Member 1:** Anis Daniyah binti Mohd Faizal (2419018)
 * **Member 2:** Anis Asna binti Amin (2415028)
