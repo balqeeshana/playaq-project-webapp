@@ -15,8 +15,8 @@ PLAYAQ is a premium, secure, and modern Laravel MVC-based web application design
 
 ## 📁 Project Deliverables
 You can inspect our final project documents directly in this repository:
-* 📄 **[Project Proposal](./docs/Proposal.pdf)** <!-- Update with your actual proposal filename -->
-* 📄 **[Final Project Report](./docs/Final_Report.pdf)** <!-- Update with your actual report filename -->
+* 📄 **[Project Proposal](./docs/Proposal.pdf)** 
+* 📄 **[Final Project Report](./docs/Report.pdf)** 
 
 ---
 
@@ -55,3 +55,11 @@ All accounts use the password: `password`
 2. Run dependency installations:
    ```bash
    composer install
+3. Set database details in your .env file (e.g. DB_CONNECTION=sqlite).
+4. Generate the application key and migrate the database:
+   ```bash
+   php artisan key:generate
+   php artisan migrate:fresh --seed
+5. Start the local server:
+   ```bash
+   php artisan serve
